@@ -6,12 +6,19 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task0.V2.Lib
     {
         public double GetMultiplySeries(int startValue, int stopValue)
         {
-            double result = 0;
-            for (int i = startValue; i < stopValue; i++)
+            double sinValue = Math.Sin(1);
+            double sinPowerNeg7 = Math.Pow(sinValue, -7);
+
+            double result = 1.0;
+
+            for (int i = startValue; i <= stopValue; i++)
             {
-                result = Math.PI * Math.Pow((i/Math.Pow(Math.Sin(1),-7)),-2);
+                double term = Math.Pow(i / sinPowerNeg7, -2);
+                result *= term;
             }
-            return result;
+
+            return Math.Round(result,3);
+
         }
     }
 }
