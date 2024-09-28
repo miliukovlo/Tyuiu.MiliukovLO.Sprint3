@@ -10,7 +10,7 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task1.V29.Test
         public void TestMethod1()
         {
             DataService dataService = new DataService();
-            Assert.AreEqual(1, dataService.GetMultiplySeries(0.25, 1, 11));
+            Assert.AreEqual(13051.34, dataService.GetMultiplySeries(0.25, 1, 11));
         }
     }
 }

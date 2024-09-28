@@ -7,12 +7,12 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task1.V29.Lib
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
             double result = 1;
-            while  (startValue < stopValue)
+            while  (startValue <= stopValue)
             {
-                result *= Math.Pow(value, 2) * startValue + 2;
+                result *= (Math.Pow(value, 2) * startValue) + 2;
                 startValue++;
             }
-            return result;
+            return Math.Round(result,2);
         }
     }
 }
