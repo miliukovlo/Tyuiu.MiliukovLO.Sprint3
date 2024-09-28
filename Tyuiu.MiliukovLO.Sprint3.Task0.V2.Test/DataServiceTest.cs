@@ -1,0 +1,15 @@
+using Tyuiu.MiliukovLO.Sprint3.Task0.V2.Lib;
+
+namespace Tyuiu.MiliukovLO.Sprint3.Task0.V2.Test
+{
+    [TestClass]
+    public class DataServiceTest
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+            DataService service = new DataService();
+            Assert.AreEqual(1,service.GetMultiplySeries(1, 1));
+        }
+    }
+}
