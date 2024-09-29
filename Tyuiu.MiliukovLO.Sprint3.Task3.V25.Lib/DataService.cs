@@ -27,7 +27,7 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task3.V25.Lib
                     previousLetter = false; 
                 }
             }
-            return 1;
+            return count;
         }
     }
 }
