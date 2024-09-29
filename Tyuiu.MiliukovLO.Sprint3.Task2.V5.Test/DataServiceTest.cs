@@ -9,7 +9,7 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task2.V5.Test
         public void TestMethod1()
         {
             var dataService = new DataService();
-            Assert.AreEqual(1, dataService.GetSumSeries(0.75, 1, 20));
+            Assert.AreEqual(0.333, dataService.GetSumSeries(0.75, 1, 20));
         }
     }
 }
