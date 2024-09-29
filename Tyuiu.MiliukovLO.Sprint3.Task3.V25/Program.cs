@@ -1,4 +1,4 @@
-﻿using Tyuiu.MilyukovLO.Sprint3.Task3.V25.Lib;
+﻿using Tyuiu.MiliukovLO.Sprint3.Task3.V25.Lib;
 
 public class Program
 {
@@ -8,7 +8,7 @@ public class Program
         Console.Title = "Спринт #3 | Выполнил: Милюков Л. О. | ИИПб 24-2";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #3                                                                ");
-        Console.WriteLine("* Тема: Оператор цикла for                                                 ");
+        Console.WriteLine("* Тема: Оператор цикла foreach                                                ");
         Console.WriteLine("* Задание #3                                                               ");
         Console.WriteLine("* Вариант #25                                                               ");
         Console.WriteLine("* Выполнил: Милюков Леонид Олегович | ИИПб 24-2                            ");

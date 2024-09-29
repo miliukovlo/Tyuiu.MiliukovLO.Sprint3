@@ -1,4 +1,4 @@
-using Tyuiu.MilyukovLO.Sprint3.Task3.V25.Lib;
+using Tyuiu.MiliukovLO.Sprint3.Task3.V25.Lib;
 
 namespace Tyuiu.MilyukovLO.Sprint3.Task3.V25.Test
 {
