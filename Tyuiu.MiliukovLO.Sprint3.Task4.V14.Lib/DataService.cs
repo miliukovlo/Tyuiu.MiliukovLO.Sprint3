@@ -15,7 +15,7 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task4.V14.Lib
                 }
                 result += Math.Cos(i) / Math.Sin(i);
             }
-            return result;
+            return Math.Round(result,3);
         }
     }
 }
