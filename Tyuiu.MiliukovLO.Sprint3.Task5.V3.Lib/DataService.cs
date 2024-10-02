@@ -9,7 +9,7 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task5.V3.Lib
             double result = 0;
             for (int i = startValue1; i <= stopValue1; i++)
             {
-                for (int k = startValue2; k < stopValue2; k++)
+                for (int k = startValue2; k <= stopValue2; k++)
                 {
                     result += (Math.Sin(k) + x) / x;
                 }
