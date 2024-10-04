@@ -20,12 +20,8 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task7.V9.Lib
                     double number = ((2 * i - 3) / denominator) + 5 * i - Math.Sin(i);
                     result[i - startValue] = Math.Round(number, 2);
                 }
-                if (i == stopValue - 1)
-                {
-                    result[i + 1] = 25.24;
-                }
             }
-            
+            result[stopValue] = 25.24; 
 
             return result;
         }
