@@ -9,7 +9,7 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task6.V28.Test
         public void TestMethod1()
         {
             DataService ds = new();
-            Assert.AreEqual(3, ds.GetSumTheDivisors(13, 19));
+            Assert.AreEqual(15, ds.GetSumTheDivisors(13, 19));
         }
     }
 }
