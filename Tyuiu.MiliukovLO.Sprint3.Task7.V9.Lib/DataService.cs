@@ -8,7 +8,7 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task7.V9.Lib
         {
             double[] result = new double[stopValue - startValue];
 
-            for (int i = startValue; i <= stopValue; i++)
+            for (int i = startValue; i < stopValue; i++)
             {
                 double denominator = Math.Cos(i) - 2 * i;
                 if (denominator == 0)
