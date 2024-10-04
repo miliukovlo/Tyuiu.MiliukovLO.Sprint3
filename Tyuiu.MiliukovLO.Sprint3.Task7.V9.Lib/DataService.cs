@@ -21,7 +21,6 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task7.V9.Lib
                     result[i - startValue] = Math.Round(number, 2);
                 }
             }
-            result[stopValue] = 25.24; 
 
             return result;
         }
