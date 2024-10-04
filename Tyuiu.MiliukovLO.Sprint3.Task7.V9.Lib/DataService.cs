@@ -6,9 +6,9 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task7.V9.Lib
     {
         public double[] GetMassFunction(int startValue, int stopValue)
         {
-            double[] result = new double[stopValue - startValue];
+            double[] result = new double[(stopValue - startValue) + 1];
 
-            for (int i = startValue; i < stopValue; i++)
+            for (int i = startValue; i <= stopValue; i++)
             {
                 double denominator = Math.Cos(i) - 2 * i;
                 if (denominator == 0)
@@ -21,7 +21,6 @@ namespace Tyuiu.MiliukovLO.Sprint3.Task7.V9.Lib
                     result[i - startValue] = Math.Round(number, 2);
                 }
             }
-
             return result;
         }
     }
